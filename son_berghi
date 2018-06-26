@@ -1,0 +1,13 @@
+Clock.bpm=110
+c0 >> space(P[0:9] + P[6],amp=PEuclid(5,16),sus=4)
+
+pp >> snick(P[0], dur=16)
+p2 >> play("-  -  -   - -   ", sample=4) #son clave all the things
+
+durs = [3,3,4,2,4]
+b1 >> play("V       ")
+p4 >> play(" *(   YEAH)             ", sample=8)
+Root.default=-14
+b0 >> bass(P[0].stretch(13)|P[0.5,0.75,P[1,4,7]], delay=0.5)
+e1 >> play("(XXxVXxV )( -- swa [--]-(==#))")
+k2 >> play("X   (-m)   o   (h-)   ",sample=4)
