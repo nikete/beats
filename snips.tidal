@@ -1,0 +1,7 @@
+d1 $ sound "[bd hh* bd, [sd sd] cp, bass [bass [bass bass] bass bass], odx]"
+
+-- add some variety with 'chunk'
+d2 $ chunk 4 (|- note 5) $ jux rev $ 
+  arp "<pinkyup down thumbup up>" $ n "<c'maj'4 e4'min'8 f4'maj'4>"
+  # sound "superpiano"
+  # sustain 2 # room 0.3 # sz 0.9
